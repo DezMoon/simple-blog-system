@@ -1,0 +1,7 @@
+<p>First Name: {{ user.firstName }}</p>
+<input type="text" [(ngModel)]="user.firstName" />
+<p>Last Name: {{ user.lastName }}</p>
+<input type="text" [(ngModel)]="user.lastName" />
+<p>Password:</p>
+<input type="password" [(ngModel)]="user.password" />
+<button (click)="updateProfile()">Update Profile</button>
